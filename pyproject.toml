@@ -12,8 +12,12 @@ matplotlib = "^3.3.1"
 pandas = "^1.1.1"
 numpy = "^1.19.1"
 sklearn = "^0.0"
+bs4 = "^0.0.1"
+requests = "^2.24.0"
+pytest-watch = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
